@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 WorkingDirectory=/opt/app/flask-app/
-ExecStart=/opt/app/env/bin/python -m flask run -h 0.0.0.0 -p 80
+ExecStart=/opt/app/env/bin/python -m flask run -h 0.0.0.0 -p 81
 Environment="APP_SETTINGS=/etc/flask-app/config.py"
 Restart=always
 

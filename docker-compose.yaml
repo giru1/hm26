@@ -6,7 +6,7 @@ services:
       context: .
     image: yagofarovvadim/hw_26
     ports:
-      - "81:81"
+      - "8081:8081"
     platform: linux/amd64
     volumes:
       - ./docker_config.py:/code/default_config.py
